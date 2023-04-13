@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+                *{
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin: 0px;
+                    padding: 0px;
+                    box-sizing: border-box;
+                }
+                .c1{
+                        height: 1590px;
+                        width: 1300px;
+                        margin-top: 20px;
+                        margin-left: 100px;
+                        border: 4px solid black;
+                }
+                #main{
+                    margin-left: 200px;
+                    margin-top: -100px;
+                }
+                .c2{
+                        width: 1290px;
+                        height: 200px;
+                        background-color: white;
+                }
+                .c2 > ::before{
+                        content: '';
+                        display: inline-block;
+                        background-repeat: no-repeat;
+                        width: 100px;
+                        height: 100px;
+                        margin: 45px 0px 0px 40px;
+                        background-image: url('../logo.jpeg');
+                        background-size: 100px 100px;
+                        background-color: cadetblue;
+                }
+                .c2 ul li{
+                        font-family: 'Audiowide', cursive;
+                        color:goldenrod;
+                        list-style-type: none;
+                        font-size: 80px;
+                        margin-left: 50px;
+                        display: inline;
+                }
+               .c3{
+                    width: 100%;
+                    height: 30px;
+                    background-color: #333;
+                }
+                .c3 ul{
+                    list-style-type: none;
+                }
+                .c3 ul li{
+                    float: left;
+                }
+                .c3 ul li a{
+                    display: inline-block;
+                    margin: 0px 20px;
+                    padding: 6px;
+                    text-decoration: none;
+                    color: rgb(245, 167, 21);
+                }
+                .c3 ul li a:hover{
+                    background-color: black;
+                }
+                .course_show ul{
+                    width: 130px;
+                    height: 205px;
+                    display: none;
+                }
+                .course_show:hover ul{
+                    position: relative;
+                    z-index: 1;
+                    display: block;
+                }
+                .course_show ul li a{
+                    display: inline-block;
+                    height: 30px;
+                    width: 130px;
+                    background-color: #333;
+                }
+                .c4{
+                    width: 70%;
+                    float: right ;
+                    height: 1100px;
+                    background-color: lightslategrey;
+                    margin-top: 20px;
+                    margin-right: 10px;
+                    border-radius: 40px;
+                    float: right;
+                }
+                .c5{
+                    color: white;
+                    width: 890px;
+                    height: 700px;
+                    margin: auto;
+                    margin-top: 10px;
+                    padding: 50px;
+                    border-radius: 40px;
+                    background-color: rgb(131, 71, 174);
+                    border: 4px solid white;
+                    font-size: 25px;
+                    text-align: justify;
+                }
+                .c6{
+                    float: left;
+                    width: 40%;
+                    height: 300px;
+                    border-radius: 40px;
+                    margin-top: 40px;
+                    margin-left: 80px;
+                    border: 4px solid white;
+                }
+                .c6 h1{
+                    color: white;
+                    margin-left: 40px;
+                    margin-top: 40px;
+                }
+                .c6 ul{
+                    font-size: 25px;
+                    color: white;
+                    margin-top: 30px;
+                    margin-left: 60px;
+                }
+                .c7{
+                    width: 40%;
+                    height: 300px;
+                    border-radius: 40px;
+                    margin-top: 40px;
+                    margin-left: 480px;
+                    border: 4px solid white;
+                }
+                .c7 h1{
+                    color: white;
+                    margin-left: 40px;
+                    margin-top: 40px;
+                }
+                .c7 ul{
+                    font-size: 25px;
+                    color: white;
+                    margin-top: 30px;
+                    margin-left: 60px;
+                }
+                .c8{
+                    width: 30%;
+                    float: left;
+                    height: 1100px;
+                    margin-top: -1100px;
+                }
+                .c9{
+                    width: 250px;
+                    height: 300px;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    background-color: white;
+                }
+                .login{
+                    color: white;
+                    background-color: rgb(131, 71, 174);
+                    text-align: center;
+                    padding: 15px 20px;
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                }
+                .box{
+                    border: 2px solid black;
+                    border-radius: 5px;
+                    width: 240px;
+                    height: 35px;
+                    font-size: 20px;
+                    padding: 10px;
+                }
+                .submit{
+                    background-color: white;
+                    padding: 4px;
+                    margin-left: 80px;
+                }
+                .reset{
+                    background-color: white;
+                    padding: 4px;
+                }
+                .c10{
+                    width: 250px;
+                    height: 330px;
+                    margin-top: 30px;
+                    margin-left: 20px;
+                    background-color: white;
+                }
+                .news{
+                    color: white;
+                    background-color: rgb(131, 71, 174);
+                    text-align: center;
+                    padding: 15px 20px;
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                }
+                .float{
+                    height: 250px;
+                }
+                marquee p{
+                    margin-left:5px;
+                }
+                .select{
+                    margin-left : 50px ;
+                }
+                #course{
+                    margin-left: 50px;
+                    margin-top: 20px;
+                }
+                .c11{
+                    width: 250px;
+                    height: 470px;
+                    margin-top: 30px;
+                    margin-left: 20px;
+                    background-color: white;
+                }
+                .c12{
+                    margin-top: 1252px;
+                    width: 1292px;
+                    height: 100px;
+                    background-color:aliceblue;
+                }
+                .p12{
+                    padding-left: 350px;
+                    padding-top: 40px;
+                    font-size: 20px;
+                }
